@@ -75,12 +75,7 @@ def get_current_active_user(current_user: User = Depends(get_current_user)) -> U
 
 
 def require_role(*roles: UserRole):
-    """
-    Dependency factory. Usage:
-        @router.post("/...", dependencies=[Depends(require_role("admin"))])
-    Or as a typed param:
-        current_user: User = Depends(require_role("admin", "analyst"))
-    """
+   
     def role_checker(current_user: User = Depends(get_current_user)) -> User:
         if current_user.role not in roles:
             raise HTTPException(
