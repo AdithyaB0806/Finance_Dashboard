@@ -107,7 +107,7 @@ That’s it — backend verifies everything.
 
 ---
 
-## 📸 Screenshots
+
 
 ## 📸 Screenshots
 
@@ -118,7 +118,7 @@ That’s it — backend verifies everything.
 ![Dashboard](./screenshots/Dashboard.png)
 
 ### 🔹 Add User
-![Add User](./screenshots/Adding users.png)
+![Add User](./screenshots/Adding_sers.png)
 
 ### 🔹 Transactions
 ![Transactions](./screenshots/Transactions.png)
@@ -146,7 +146,4 @@ That’s it — backend verifies everything.
 
 ---
 
-## 🙌 Final Note
 
-This project is part of my journey to becoming a **full-stack + AI engineer**.
-Still learning, improving, and building 🚀
